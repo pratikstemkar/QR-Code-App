@@ -8,6 +8,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'QR Code',
+      debugShowCheckedModeBanner: false,
       theme: ThemeData(
         primaryColor: Colors.green,
         accentColor: Colors.grey,
